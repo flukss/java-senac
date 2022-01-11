@@ -8,8 +8,6 @@ Scanner in = new Scanner(System.in);
 float sal1 = 0, sal2 = 0, mediaM = 0, mediaF = 0, acmM = 0, acmF = 0;
 String sex = "", comand = "";
 int contM = 0, contF = 0;
-
-
 //A ideia do projeto é fazer um comparativo entre salários masculinos e femininos dentro de uma empresa apresentando as médias entre eles e facilitando uma visualização nos valores para poder comparar
 while (!comand.equals("SAIR")) //O laço passa até a pessoa digitar para sair
 {
